@@ -22,7 +22,7 @@ Install Google Authenticator on your Android or iPhone.  Find it by searching fo
 On your phone, open Google Authenticator, and click Begin.
 ![](/5khelpdocs/img/login/mfa-login-3.png)
 Select "Scan a barcode," then point your phone's camera at the onscreen barcode.
-![](/5khelpdocs/img/login/mfa-login-4.png)
+
 Once you've scanned the barcode, your account will be added to Google Authenticator automatically.
 ![](/5khelpdocs/img/login/mfa-login-5.png)
 
@@ -40,13 +40,22 @@ On the next screen, the app will confirm that the time has been synced, and you 
 
 ---
 ### Logging In
+
 After your account has been added to Google Authenticator, you will need to enter the 6 digit code from it each time you log in. The code changes every :30, so make sure to enter the current code. The code turns RED to warn you that it will change soon.
 
 ![](/5khelpdocs/img/login/mfa-login-6.png)
+
+
 Enter the current code and click <span class="buttonstyle">Send</span>.
+___
 ![](/5khelpdocs/img/login/mfa-login-7.png)
+
+
 ### SSO Authentications
 
 Single sign-on (SSO) is a session and user authentication service that permits an end user to enter one set of login credentials (such as a name and password) and be able to access multiple applications. Your company policy may require you to utilize SSO.
+
+
 ![](/5khelpdocs/img/login/SSO1.png)
+___
 ![](/5khelpdocs/img/login/SSO2.png)
