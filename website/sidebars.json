@@ -1,0 +1,59 @@
+{
+  "docs": {
+    "Welcome": [
+      "welcome"
+    ],
+    "Accounts": [
+      "new-account",
+      "logging-in",
+      "mfa-login",
+      "reset-password"
+    ],
+    "Packages": [
+      "package-inbox",
+      "advanced-package-inbox",
+      "create-package",
+      "package-from-csv",
+      "sharing-packages"
+    ],
+    "Upload/Download": [
+      "downloading",
+      "uploading",
+      "video-specs"
+    ],
+    "Viewing Files": [
+      "search",
+      "asset-viewer",
+      "commenting",
+      "viewer-asset-details-panel",
+      "viewer-info-panel",
+      "viewer-history-panel",
+      "viewer-active-package-panel",
+      "viewer-approval-history-panel",
+      "viewer-access-panel",
+      "history"
+    ],
+    "Users": [
+      "manage-users",
+      "user-roles",
+      "user-lists"
+    ],
+    "Admin": [
+      "tag-structure",
+      "reporting",
+      "file-types",
+      "user-depts",
+      "manage-company",
+      "production-admin",
+      "suspicious-activity",
+      "login-message",
+      "queues",
+      "translations",
+      "configure-emails"
+    ],
+    "Apple TV": [
+      "apple-tv",
+      "screener-app"
+    ]
+  }
+}
