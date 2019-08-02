@@ -11,14 +11,13 @@
     ],
     "Packages": [
       "package-inbox",
-      "advanced-package-inbox",
       "create-package",
       "package-from-csv",
       "sharing-packages"
     ],
     "Upload/Download": [
-      "downloading",
       "uploading",
+      "downloading",
       "video-specs"
     ],
     "Viewing Files": [
