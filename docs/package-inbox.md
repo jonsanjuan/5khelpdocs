@@ -37,7 +37,7 @@ Select a Filtering method, then set the values you'd like to Filter by.
 Click the <i class="fa fa-times" aria-hidden="true"></i> to remove a Filter.  Click the Clear Filters button to remove all Filters.
 
 ## Packages
-The main area of the Package Inbox, this shows you all the  packages you have created or received which match your current filter criteria. Click on a Package Title or Thumbnail to view it.
+The main area of the Package Inbox, this shows you all the packages you have created or received which match your current filter criteria. Click on a Package Title or Thumbnail to view it.
 ![](/5khelpdocs/img/package_inbox/package-inbox-packages-3.png)
 
 ### Sort Options
@@ -48,7 +48,7 @@ When you mouse over an option, you can select the Sort Order for that option by 
 ### Selecting Multiple Packages 
 Check a Package's box to select it.  Once you've selected one or more Packages, you can choose actions to apply to them.
 ![](/5khelpdocs/img/package_inbox/package-inbox-select-options.png)
-* <strong> Mark as Viewed :</strong>  Flags as Viewed
+* <strong> Mark as Viewed :</strong>  Flagged as Viewed
 * <strong>Share:</strong>  Allows sharing of package.
 * <strong>Archive:</strong> Set the selected Packages to Archived.  Once Archived, Packages will no longer show up in your Inbox.
 * <strong>Delete:</strong> Set the selected Packages to Deleted.

@@ -53,7 +53,7 @@ ___
 
 ### SSO Authentications
 
-Single sign-on (SSO) is a session and user authentication service that permits an end user to enter one set of login credentials (such as a name and password) and be able to access multiple applications. Your company policy may require you to utilize SSO.
+Single sign-on (SSO) is a session and user authentication service that permits an end user to enter one set of login credentials (such as a name and password) and be able to access multiple applications. Your company policy may require you to utilize SSO.  If so, you may find that your SSO interface looks different from the one pictured here; however, functionality will be the same.
 
 
 ![](/5khelpdocs/img/login/SSO1.png)
