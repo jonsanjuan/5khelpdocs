@@ -21,20 +21,23 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Learning and Support Docs', // Title for your website.
+
+  title: 'Learning and Support Docs' /* title for your website */,
   tagline: '5th Kind Learning and Support Docs',
-  url: 'https://jonsanjuan.gibhub.io', // Your website URL
-  baseUrl: '/5khelpdocs/', // Base URL for your project */
+  url: 'https://5thkind.com' /* your website url */,
+  baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
-  // Used for publishing and more
-  projectName: '5khelpdocs',
-  organizationName: 'jonsanjuan',
+
+ // Used for publishing and more
+  projectName: '5thKindHelpDocs',
+  organizationName: '5thKind',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
+
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
