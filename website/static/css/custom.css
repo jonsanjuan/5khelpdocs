@@ -96,8 +96,6 @@
 	border-width: 1px;
 	border-color: rgba(107,97,97,1);
     margin: 5px;
-    text-align: center;
-    -webkit-box-shadow: 5px 5px 7px -3px #000000; 
 }
 
 .mainContainer .wrapper i {
@@ -154,87 +152,3 @@ a {
 	color: rgba(89, 176, 225, 1);
 }
 
-body{
-	margin:0;
-	padding:0;
-}
-.container1{
-	width:100%;
-}
-.leftbox1{
-	width:50%;
-	float:left;
-	border-bottom:1px solid black;
-	border-right:1px solid black;
-}
-.rightbox1{
-	float:right;
-	width:49.86%;	
-	border-bottom:1px solid black;
-}
-p{
-	padding:10px;
-}
-
-.container{
-	width:100%;
-}
-.leftbox{
-	width:50%;
-	float:left;
-	border-bottom:1px solid white;
-	border-right:1px solid white;
-}
-.rightbox{
-	float:right;
-	width:49.86%;	
-	border-bottom:1px solid white;
-}
-p{
-	padding:10px;
-}
-
-.leftbox2{
-	width:50%;
-	float:left;
-	border-bottom:1px solid white;
-	border-right:1px solid white;
-	height:240px;
-}
-
-.leftbox3{
-	width:50%;
-	float:left;
-	border-bottom:1px solid white;
-	border-right:1px solid white;
-	height:123px;
-}
-
-.leftbox4{
-	width:50%;
-	float:left;
-	border-bottom:1px solid white;
-	border-right:1px solid white;
-	height:669px;
-}
-.leftbox5{
-	width:50%;
-	float:left;
-	border-bottom:1px solid white;
-	border-right:1px solid white;
-	height:121px;
-}
-.leftbox4{
-	width:50%;
-	float:left;
-	border-bottom:1px solid white;
-	border-right:1px solid white;
-	height:292px;
-}
-.leftbox5{
-	width:50%;
-	float:left;
-	border-bottom:1px solid white;
-	border-right:1px solid white;
-	height:166px;
-}

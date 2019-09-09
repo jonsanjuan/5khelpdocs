@@ -1,8 +1,5 @@
 {
   "docs": {
-    "Updates/News": [
-      "Enable_Flash_in_Chrome"
-    ],
     "Welcome": [
       "welcome"
     ],
@@ -19,8 +16,8 @@
       "sharing-packages"
     ],
     "Upload/Download": [
-      "downloading",
       "uploading",
+      "downloading",
       "video-specs"
     ],
     "Viewing Files": [
