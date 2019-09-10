@@ -1,11 +1,17 @@
 ---
 id: search
-title: Search
+title: Searching For Files 
 ---
 
-This view lets you search and browse for Files in the system.
+Users can search for files, assets, and packages in different modules throughout CORE. 
 
-<span class="important"><strong>Important:</strong></span><strong> The files and options that appear in this view may vary based on your permissions.  If you need access to something that you do not have access to, please ask your Administrator.</strong>
+- In File Search, users can find individual files and asset groups through a combination of Filters in the Search Options Panel at the top of the module and the Browser Panel’s Browse Tab and Filter Tab.  Search parameters can be saved with templates for future use, and results can be sorted and selected for various needs. (i.e. Package Sharing)
+- In the History module, you can see what files you interacted with recently.  Users with certain permissions can see what files accessed by other users.
+- In the Inbox / Packages module, using Search, you can find packages that contain the files you seek.  For instructions on this module, go to Package Inbox >> Search section
+
+# Elements of File Search Module
+
+<span class="important"><strong>Note:</strong></span><strong> When searching for files, the Tags and Metadata that appear in the Search Results, Filters, Browse Panel and Tabs are reflective of what files are in the system. If Tags you’re looking for aren’t displayed in the Browser Tab or Filter Tab, then there are no files with those Tags.
 
 ---
 
@@ -13,19 +19,134 @@ This view lets you search and browse for Files in the system.
 
 ---
 
-## Browse
-The Browse section lets you look through for files in a way that's similar to a directory structure on your computer.  Select a Top Level Tag from the dropdown, then browse through the nested Metadata Tag values.  Clicking a value will add Search Filters in the Options panel, and search for files matching those values.  This is equivalent to selecting and applying these filters manually.
+## Elements of the Left Browse Panel
+### Browse Panel Tab
+The Browse Panel tab lets you look through for files in a way that's similar to a directory structure on your computer. Select a Top Level Tag from the dropdown, then browse through the nested Tag Values. Clicking a value will add Search Filters in the Options panel, and search for files matching those values. This is equivalent to selecting and applying these filters manually.
+
 ![](/img/search/search-browse-1.png)
-### Top Level Tag Select
-Click this dropdown to view Top Level Tags, and select one to view the nested Metadata Tags under it.
-### Metadata Tag Browse
-These nested tags represent Metadata values of Files.  Click the <span class="buttonstyle">+</span> next to any value to view the values nested beneath it.  Clicking on any value will add Search Filters to the Options panel, and search for those values.
 
----
+1. Top Level Tag Select - Click this dropdown to view Top Level Tag Values, and select one to view the nested Tags Values under it.
+2. Browse Directory - The directory reflects the nested Tag Values of Files based on the Top Level Tag that you select.  These Tag Values are the Structural Tags that you or another user chose when uploading the Files. 
+    - Click the + next to any value to view the values nested beneath it.  ADD PHOTO
+    - Clicking on any value will add Search Filters to the Options Panel, and search for those values. ADD PHOTO
+    ### Filter Panel Tab
+    
+The Filter Panel tab has search options that enable you to narrow down the specific Tag Values to return the Search results you are looking for.  The filter can be narrowed by any combination of Tag Fields. Only the Tags that are associated with files in the system are shown, with one exception: File Type. This list will always appear in the Filter Panel even if no files are associated with certain Tag Values. 
 
-## Options
+ADD PHOTO
+
+## Elements of File Search
+File Search lets you search and browse for Files in the system.  <span class="important"><strong>Note:</strong></span><strong> The files and options that appear in this view may vary based on your permissions. If you need access to something that you do not have access to, please ask your Administrator.
+
+### Search Options Panel
+
 ![](/img/search/search-options-1.png)
 
+1. Search Bar - Search for Files whose filenames, tags, and other metadata match the terms you enter. Click the (  ) icon or hit Enter to search.
+2. Save / Load Template - Save sets of filters that you use frequently, and easily recall them later.
+3. Display Setting - Choose between List Mode and Thumbnail Mode to display your files.  Thumbnail is the default display setting.
+4. Group Mode - Toggle Group Mode on and off.  Group Mode displays files grouped together by shared Structural Tag Values. Group Mode ON is the default setting.
+5. Sort By - Dropdown menu that enables the user to sort results by Upload Date or Name.
+6. More Options - Dropdown menu with Add to Package and Share actions that when selected, open a right side panel that enables the user to drag and drop files from Search Results into the right side Package panel or Share panel. For more information about how to add files from Search Results to a package, go to Creating a Package.  For more information about how to share files from Search Results, go to Sharing Packages.  
+ADD PHOTOS
+
+### Search Results
+This is where Files matching your search criteria appear. When you first navigate to this view, you will see the most recently uploaded Files shown first. Use the Search Bar, Filters, Sort, and Group options to change what and how Files are displayed. You will see only the Files that you have permission to access. If you cannot find the files you need, or if you believe you should have access to additional files, please contact your Administrator.
+
+#### Search Results returned as Asset Groups with Thumbnails. This is the default system setting.
+
+ADD PHOTO OF LARGER SEARCH RESULTS AREA WITH AN ASSET GROUP BROKEN OUT
+
+#### Search Results returned as Asset Groups in List Mode. 
+Displayed columns are customizable.
+
+ADD PHOTO
+
+1. Asset Groups - Group Mode is the default view for the system.  Group Mode displays files grouped together by shared Structural Tag Values. 
+    - Group Name - The Group Name represents the Structural Tag Values that the Files within the Group have in common.  Click the Group Name to open the group in Asset Viewer. 
+    - Group Options - Click any of the icons at the top right of any Asset Group to interact with the group. Any option you click on will apply to all Files within the group.
+        - Files in Group - A number indicating the number of files in a specific Asset Group.
+            - Share - Share the Asset Group as a Package.
+            - Download - Download that Asset Group.
+            - Upload - Upload files to a that Asset Group specifically.
+            - Comment - Comment on that Asset Group.
+            - Asset Details - Contains the Tag and Metadata information connected with the specific Asset Group.
+            - More Options - Pop out menu that enables users to take further action with the Asset Group.
+                - Add to Package - Creates a new package made up of the Asset Group, in which more Files can be added to the package as desired.
+                - Delete - Deletes the Asset Group.
+                - Share - Opens the Sharing Panel to enable the user to send the Asset Group as a Package to other users.
+                - Download - Downloads that Asset Group. Depending on user’s settings, will be downloaded as a Zip File when Simple is turned on, and individual files when Aspera is turned on.
+                - Discussion - Opens the Commenting Panel for the Asset Group
+                - Edit - The availability of this option depends on a user’s permission. Selecting this option opens the Asset Details panel and enables you to edit an Asset Group’s tags.
+                - History - Selecting this option opens the History panel showing user activity surrounding the specific Asset Group.
+    - Files - Group Mode will display a preview of the first few files it contains. Click any File to view it, or to access all Files within the group, click on the Asset Group’s name to open the Asset Viewer. Files can be displayed in Thumbnail or List Mode within a Group. Further detail on each mode is provided below. 
+2. Individual File Results - When Group Mode is OFF, individual Files are listed all together in the main Search Results. 
+  **Search Results returned as individual files in Thumbnail Mode.**
+ADD PHOTO
+3. Thumbnail Mode - Thumbnail mode is the default file display mode. 
+    - Click on any thumbnail to view it. 
+    Click the checkbox on a file to select it. 
+    Click the  for more options.  
+    ADD PHOTO
+    View Details - Opens the Viewer and Asset Details Panel for that File
+    View Comments - Opens the Viewer and Comments Panel for that File
+    Edit - If you have permission, opens the Viewer and Asset Details Panel in Edit Mode for that File.  
+    Add to Package - Opens the Package Panel on the right side of File Search, enabling you to create a Package with that File.
+    Download - Opens the Download Options Panel on the right side of File Search where you can initiate a download
+    Share - Opens the Sharing Panel on the right side of File Search from which you can send the File
+    Delete - Deletes the File
+    Mouse over the thumbnail for details and additional options, including:
+    ADD PHOTO
+    Filename
+    File Type
+    File Uploader
+    Options icons:
+    Add to Package - Opens the Package Panel on the right side of File Search, enabling you to create a Package with that File.
+    Download - Opens the Download Options Panel on the right side of File Search where you can initiate a download
+    Share - Opens the Sharing Panel on the right side of File Search from which you can send the File
+    Delete - Deletes the File
+    Search Results returned as individual files in List Mode.
+    ADD PHOTO
+    List Mode - In List Mode, you can view the full name of each file, as well as additional details about the file, such as File Size and the date that the File was received.
+    ID, Name, Create Date, Size, and File Type are the default columns shown.  ADD PHOTO
+    Click the   to add and remove list columns. Refresh the page when changes are saved.  ADD PHOTO
+    Click the  for more options.  
+    ADD PHOTO
+    View Details - Opens the Viewer and Asset Details Panel for that File
+    View Comments - Opens the Viewer and Comments Panel for that File
+    Edit - If you have permission, opens the Viewer and Asset Details Panel in Edit Mode for that File.  
+    Add to Package - Opens the Package Panel on the right side of File Search, enabling you to create a Package with that File.
+    Download - Opens the Download Options Panel on the right side of File Search where you can initiate a download
+    Share - Opens the Sharing Panel on the right side of File Search from which you can send the File
+    Delete - Deletes the File
+    When a thumbnail image is displayed in the columns, click the thumbnail to view the File in Asset Viewer.
+
+    Find Files in File Search
+    Filter Your Search
+    You can narrow down your search results in the following ways: 
+    Use the Filter Tab to select active tags and narrow down your results
+    Use the Browse Tab to select a specific production, if desired.
+    Use the Search Bar with keywords.
+    Users can use all of these methods individually, or a combination of some or all of them.  Examples are listed below.
+     
+    Example 1, Filter Tab Search using …….
+    ADD PHOTO
+    Example 2, Browse Tab Search using….
+    ADD PHOTO
+    Example 3, Search Bar Search using …….
+    ADD PHOTO
+    Example 4, Filter Tab and Search Bar Search using …..
+    ADD PHOTO
+    Example 5, Browser Tab and Filter Tab Search using ……
+    ADD PHOTO
+    Example 6, Browser Tab and Search Bar Search using ……
+    ADD PHOTO
+    Example 7, Browser Tab, Filter Tab, and Search Bar Search using….
+
+    Save a Search Filter
+    To save a Search Filter as a Template that can be reused, 
+    Click the  to save the current set of filters as a template. 
+    Enter a name for the template, then click Ok to save.
 ### Search
 Search for Files whose File Names match the terms you enter.  Click the <i class="fa fa-search" aria-hidden="true"></i> icon or hit Enter to search.
 ### Save/Load Template

@@ -3,7 +3,7 @@ id: queues
 title: Queues
 ---
 
-Admins can use this page to view the status of files that are being processed in the system.
+The Queues sub-module is helpful for troubleshooting.  Admins can use the Queues page to view the status of files that are being watermarked for download or are being processed as proxies within the system.
 
 ## Watermark
 ![](/img/admin/queues/queues-watermarking-1.png)

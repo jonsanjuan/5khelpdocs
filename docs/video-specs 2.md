@@ -2,7 +2,8 @@
 id: video-specs
 title: Video Specs
 ---
-Here are the recommended specifications for uploading video into CORE.  Video not matching these specs may take longer to be playable, or may have difficulty processing.
+
+Here are the recommended specifications for uploading video into 5th Kind.  Video not matching these specs may take longer to be playable, or may have difficulty processing.
 
 ---
 
@@ -21,6 +22,3 @@ Here are the recommended specifications for uploading video into CORE.  Video no
 |Encoding|Faster encode (single pass)|
 |Audio Format|AAC|
 |Audio Bit Rate|192|
-
----
-

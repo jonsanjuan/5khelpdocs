@@ -3,7 +3,7 @@ id: suspicious-activity
 title: Suspicious Activity
 ---
 
-The 5th Kind system constantly monitors all activity for suspicious behavior, and logs anything it finds.  The Suspicious Activity page allows Admins the ability to see all requests made to the system which have been flagged as suspicious.
+The 5th Kind's CORE system constantly monitors all activity for suspicious behavior, and logs anything it finds.  The Suspicious Activity page allows Admins the ability to see all requests made to the system which have been flagged as suspicious.
 ![](/img/admin/suspicious-activity/suspicious-activity-overview-1.png)
 
 ##  Filters
